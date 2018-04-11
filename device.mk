@@ -23,8 +23,8 @@ TARGET_DENSITY=xhdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
+    $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml \
+    $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -47,7 +47,7 @@ PRODUCT_PACKAGES += \
 TARGET_ARCH=arm
 
 # Inherit common stuff
-    $(call inherit-product, vendor/rr/config/common_full_phone.mk)
+    $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Sensors
 PRODUCT_PACKAGES += \
