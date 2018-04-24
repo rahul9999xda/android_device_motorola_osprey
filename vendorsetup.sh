@@ -1,3 +1,3 @@
-add_lunch_combo bootleg_osprey-eng
-add_lunch_combo bootleg_osprey-user
-add_lunch_combo bootleg_osprey-userdebug
+add_lunch_combo lineage_osprey-eng
+add_lunch_combo lineage_osprey-user
+add_lunch_combo lineage_osprey-userdebug
