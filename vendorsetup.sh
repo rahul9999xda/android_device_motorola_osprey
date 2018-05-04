@@ -1,3 +1,3 @@
-add_lunch_combo lineage_osprey-eng
-add_lunch_combo lineage_osprey-user
-add_lunch_combo lineage_osprey-userdebug
+add_lunch_combo aicp_osprey-eng
+add_lunch_combo aicp_osprey-user
+add_lunch_combo aicp_osprey-userdebug
