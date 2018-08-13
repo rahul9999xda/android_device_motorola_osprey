@@ -40,4 +40,4 @@ TARGET_USE_JELLY := true
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2018-07-05
+    ro.lineage.build.vendor_security_patch=2018-08-05
